@@ -1,4 +1,13 @@
-.vs
-Debug
-configInicial/Debug
+# Visual Studio
+.vs/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+
+# Dependencias instaladas localmente
 External Libraries/
