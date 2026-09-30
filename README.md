@@ -4,7 +4,7 @@ Práctica 4 del laboratorio de Computación Gráfica, grupo 9.
 
 ## Contenido
 
-- **Práctica 4 — Modelado Geométrico:** `configbase/Main_Modelado.cpp`, modelado de una mesa 3D a partir de cubos, con transformaciones y controles de cámara.
+- **Práctica 4 — Modelado Jerárquico:** `configbase/Main_ModeladoJerarquico.cpp`, brazo robótico articulado con hombro, codo, muñeca y dedos controlables.
 
 La solución compila únicamente el archivo de la práctica 4 en su estado actual.
 

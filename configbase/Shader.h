@@ -14,6 +14,7 @@ class Shader
 {
 public:
 	GLuint Program;
+	GLint uniformColor;
 	// Constructor generates the shader on the fly
 	Shader(const GLchar *vertexPath, const GLchar *fragmentPath)
 	{
@@ -88,6 +89,7 @@ public:
 		// Delete the shaders as they're linked into our program now and no longer necessery
 		glDeleteShader(vertex);
 		glDeleteShader(fragment);
+		uniformColor = glGetUniformLocation(this->Program, "ourColor");
 
 	}
 	// Uses the current shader
