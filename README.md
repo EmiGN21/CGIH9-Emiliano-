@@ -16,7 +16,7 @@ La solución compila únicamente el archivo de la práctica 6 en su estado actua
    - `GLEW/include` y `GLEW/lib/Release/Win32`
    - `GLFW/include` y `GLFW/lib-vc2015`
    - `glm`
-3. Coloca el recurso `window.png` en `configbase/images/window.png`. El archivo de código lo carga desde esa ruta relativa y no venía incluido en el `8.txt`.
+3. Ejecuta desde el directorio `configbase`; ahí están las texturas `images/window.png` y `images/checker_Tex.png` junto con los shaders requeridos.
 4. Selecciona `Debug | Win32`, compila y ejecuta desde el directorio `configbase`.
 
 Las dependencias, archivos de usuario de Visual Studio y productos de compilación se excluyen del control de versiones.
