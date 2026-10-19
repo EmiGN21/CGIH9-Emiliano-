@@ -1,13 +1,13 @@
 # Laboratorio de Computación Gráfica
 
-Práctica 6 del laboratorio de Computación Gráfica, grupo 9.
+Práctica 7 del laboratorio de Computación Gráfica, grupo 9.
 
 ## Contenido
 
-- **Práctica 6 — Texturizado:** `configbase/Texturizado.cpp`, dibuja un cuadrilátero con coordenadas de textura, carga una imagen con `stb_image` y permite mover la cámara.
-- Shaders de textura: `configbase/Shader/lamp.vs` y `configbase/Shader/lamp.frag`.
+- **Práctica 7 — Iluminación 1:** `configbase/Iluminacion.cpp`, aplica materiales e iluminación a modelos 3D y permite manipular la escena.
+- Shaders de iluminación: `configbase/Shader/lighting.vs` y `configbase/Shader/lighting.frag`.
 
-La solución compila únicamente el archivo de la práctica 6 en su estado actual.
+La solución compila únicamente el archivo de la práctica 7 en su estado actual.
 
 ## Requisitos y ejecución
 
@@ -15,8 +15,8 @@ La solución compila únicamente el archivo de la práctica 6 en su estado actua
 2. Instala GLFW, GLEW y GLM localmente bajo `External Libraries/`, con las rutas que usa `configbase/configbase.vcxproj`:
    - `GLEW/include` y `GLEW/lib/Release/Win32`
    - `GLFW/include` y `GLFW/lib-vc2015`
-   - `glm`
-3. Ejecuta desde el directorio `configbase`; ahí están las texturas `images/window.png` y `images/checker_Tex.png` junto con los shaders requeridos.
+   - `glm`, `assimp` y `SOIL2`
+3. Ejecuta desde el directorio `configbase`; ahí están los modelos, sus texturas y los shaders requeridos.
 4. Selecciona `Debug | Win32`, compila y ejecuta desde el directorio `configbase`.
 
 Las dependencias, archivos de usuario de Visual Studio y productos de compilación se excluyen del control de versiones.
