@@ -1,13 +1,14 @@
 # Laboratorio de Computación Gráfica
 
-Práctica 7 del laboratorio de Computación Gráfica, grupo 9.
+Práctica 8 del laboratorio de Computación Gráfica, grupo 9.
 
 ## Contenido
 
-- **Práctica 7 — Iluminación 1:** `configbase/Iluminacion.cpp`, aplica materiales e iluminación a modelos 3D y permite manipular la escena.
-- Shaders de iluminación: `configbase/Shader/lighting.vs` y `configbase/Shader/lighting.frag`.
+- **Práctica 8 — Iluminación 2:** `configbase/Iluminacion2.cpp`, combina iluminación direccional, puntual y focal, con cambio entre día y noche.
+- Modelos requeridos: `configbase/Models/ball.obj` y `configbase/Models/piso.obj`, con sus materiales y texturas.
+- Shaders requeridos: `configbase/Shader/lighting.vs`, `configbase/Shader/lighting.frag` y los shaders de lámpara.
 
-La solución compila únicamente el archivo de la práctica 7 en su estado actual.
+La solución compila únicamente el archivo de la práctica 8 en su estado actual.
 
 ## Requisitos y ejecución
 
@@ -16,7 +17,7 @@ La solución compila únicamente el archivo de la práctica 7 en su estado actua
    - `GLEW/include` y `GLEW/lib/Release/Win32`
    - `GLFW/include` y `GLFW/lib-vc2015`
    - `glm`, `assimp` y `SOIL2`
-3. Ejecuta desde el directorio `configbase`; ahí están los modelos, sus texturas y los shaders requeridos.
+3. Ejecuta desde el directorio `configbase`; ahí están los modelos, sus texturas y los shaders requeridos. Los snapshots de las prácticas anteriores también conservan sus recursos necesarios.
 4. Selecciona `Debug | Win32`, compila y ejecuta desde el directorio `configbase`.
 
 Las dependencias, archivos de usuario de Visual Studio y productos de compilación se excluyen del control de versiones.
