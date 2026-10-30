@@ -1,14 +1,14 @@
 # Laboratorio de Computación Gráfica
 
-Práctica 8 del laboratorio de Computación Gráfica, grupo 9.
+Práctica 9 del laboratorio de Computación Gráfica, grupo 9.
 
 ## Contenido
 
-- **Práctica 8 — Iluminación 2:** `configbase/Iluminacion2.cpp`, combina iluminación direccional, puntual y focal, con cambio entre día y noche.
-- Modelos requeridos: `configbase/Models/ball.obj` y `configbase/Models/piso.obj`, con sus materiales y texturas.
+- **Práctica 9 — Animación básica:** `configbase/AnimacionBasica.cpp`, anima un perro articulado y una pelota mediante una máquina de estados.
+- Modelos requeridos: las piezas `DogBody`, `HeadDog`, `TailDog` y las cuatro patas, además de `ball.obj` y `piso.obj`, con sus materiales y texturas.
 - Shaders requeridos: `configbase/Shader/lighting.vs`, `configbase/Shader/lighting.frag` y los shaders de lámpara.
 
-La solución compila únicamente el archivo de la práctica 8 en su estado actual.
+La solución compila únicamente el archivo de la práctica 9 en su estado actual.
 
 ## Requisitos y ejecución
 
